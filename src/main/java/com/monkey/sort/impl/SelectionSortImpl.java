@@ -1,4 +1,6 @@
-package com.monkey.sort;
+package com.monkey.sort.impl;
+
+import com.monkey.sort.IArraySort;
 
 import java.util.Arrays;
 
@@ -6,7 +8,7 @@ import java.util.Arrays;
  * 选择排序
  * @author tao
  */
-public class SelectionSort implements IArraySort {
+public class SelectionSortImpl implements IArraySort {
     /**
      * 选择排序
      *

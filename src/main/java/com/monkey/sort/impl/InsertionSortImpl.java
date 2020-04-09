@@ -1,4 +1,6 @@
-package com.monkey.sort;
+package com.monkey.sort.impl;
+
+import com.monkey.sort.IArraySort;
 
 import java.util.Arrays;
 
@@ -6,7 +8,7 @@ import java.util.Arrays;
  * 插入排序
  * @author tao
  */
-public class InsertionSort implements IArraySort {
+public class InsertionSortImpl implements IArraySort {
     /**
      * 插入排序
      *
