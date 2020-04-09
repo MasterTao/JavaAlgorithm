@@ -33,4 +33,9 @@ public class TestSort {
     public void testSelectionSort() {
         arraySort = new SelectionSort();
     }
+
+    @Test
+    public void testInsertionSort() {
+        arraySort = new InsertionSort();
+    }
 }

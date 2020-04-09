@@ -9,7 +9,7 @@ import java.util.Arrays;
 public class BubbleSort implements IArraySort {
 
     /**
-     * 排序
+     * 冒泡排序
      *
      * @param sourceArray 待排序数组
      * @return 排序后数组

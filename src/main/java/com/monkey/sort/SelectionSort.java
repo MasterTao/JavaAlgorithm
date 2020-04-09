@@ -2,6 +2,10 @@ package com.monkey.sort;
 
 import java.util.Arrays;
 
+/**
+ * 选择排序
+ * @author tao
+ */
 public class SelectionSort implements IArraySort {
     /**
      * 选择排序
