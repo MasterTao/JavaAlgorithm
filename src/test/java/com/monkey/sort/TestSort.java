@@ -1,8 +1,6 @@
 package com.monkey.sort;
 
-import com.monkey.sort.impl.BubbleSortImpl;
-import com.monkey.sort.impl.InsertionSortImpl;
-import com.monkey.sort.impl.SelectionSortImpl;
+import com.monkey.sort.impl.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -40,5 +38,15 @@ public class TestSort {
     @Test
     public void testInsertionSort() {
         arraySort = new InsertionSortImpl();
+    }
+
+    @Test
+    public void testShellSort() {
+        arraySort = new ShellSortImpl();
+    }
+
+    @Test
+    public void testMergeSort() {
+        arraySort = new MergeSortImpl();
     }
 }
