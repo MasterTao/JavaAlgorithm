@@ -49,4 +49,9 @@ public class TestSort {
     public void testMergeSort() {
         arraySort = new MergeSortImpl();
     }
+
+    @Test
+    public void testQuickSort() {
+        arraySort = new QuickSortImpl();
+    }
 }

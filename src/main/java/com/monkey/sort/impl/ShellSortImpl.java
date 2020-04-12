@@ -6,6 +6,7 @@ import java.util.Arrays;
 
 /**
  * 希尔排序
+ *
  * @author tao
  */
 public class ShellSortImpl implements IArraySort {
@@ -35,9 +36,9 @@ public class ShellSortImpl implements IArraySort {
                 }
                 array[j + gap] = tmp;
             }
-            gap = (int) Math.floor(gap / 3);
+            gap /= 3;
         }
-        
+
         return array;
     }
 }
