@@ -7,6 +7,7 @@ import java.util.Arrays;
 
 /**
  * 快速排序
+ *
  * @author tao
  */
 public class QuickSortImpl implements IArraySort {
